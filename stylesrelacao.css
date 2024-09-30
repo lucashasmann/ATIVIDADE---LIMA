@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #0b0505;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #db0ced;
+    color: rgb(239, 234, 234);
+}
+
+tr:nth-child(even) {
+    background-color: #0a0909;
+}
+
+tr:hover {
+    background-color: #0a0808;
+}
